@@ -4,6 +4,7 @@
     "main": "index.js",
     "scripts": {
         "Dev": "nodemon index.js",
+        "dev": "tsc-watch --onSuccess \"node dist/index.js\" ",
         "start": "node index.js"
     },
     "repository": {
